@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -8,7 +8,7 @@ Professor nível 1 R$ 12,00 por hora aula
 Professor nível 2 R$ 17,00 por hora aula 
 Professor nível 3 R$ 25,00 por hora aula 
 */
-/*
+
 int main(){
     int n, hAula;
 
@@ -21,4 +21,4 @@ int main(){
     else if(n == 2) cout << "\nSalario: " <<  hAula*17; 
           else if(n == 3) cout << "\nSalario: " <<  hAula*20; 
                 else cout << "\nNivel invalido!!" ;
-}*/
+}

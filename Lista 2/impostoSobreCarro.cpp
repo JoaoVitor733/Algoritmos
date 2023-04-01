@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 using namespace std;
 /*
@@ -7,7 +7,7 @@ fabricados antes de 1990 e uma taxa de 1.5% para os fabricados a partir de 1990,
 sobre o preço do carro. Elabore um algoritmo que leia o ano e o preço do carro, calcule e escreva o 
 imposto a ser pago. 
 */
-/*
+
 int main(){
     int a;
     float p;
@@ -19,4 +19,4 @@ int main(){
 
     if(a < 1990) cout << "\nImposto a ser pago: " << p*0.01;     
     else  cout << "\nImposto a ser pago: " << p*0.15; 
-}*/
+}

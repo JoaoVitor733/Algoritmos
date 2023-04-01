@@ -10,3 +10,9 @@ características de cada tipo primitivo (inteiro, real, caracter e lógico), dec
 expressões e prioridade de resolução. 
 - Comandos básicos de entrada, saída e atribuição: comandos de entrada e saída de dados, formatação de 
 mensagens, atribuições. 
+
+Conteúdos da Lista 2: 
+- Conceito de bloco de comandos (escopo): conceito escopo, instruções simples e compostas, delimitações 
+de início e fim de bloco. 
+- Estruturas de controle de fluxo (condicionais): sequência de comandos, comandos condicionais simples e 
+compostos.

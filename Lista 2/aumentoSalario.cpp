@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 using namespace std;
 /*
@@ -7,7 +7,7 @@ conforme a tabela abaixo. Faça um algoritmo que leia o salário e o código do 
 calcule o novo salário. Se o cargo do funcionário não estiver na tabela, ele deverá receber 40% de 
 aumento. Mostre o salário antigo, o novo salário e a diferença.
     */
-/*
+
 int main(){
     int c;
     float s,nSalario;
@@ -23,4 +23,3 @@ int main(){
                 else nSalario = s*1.4;
     cout << "\nSalario antigo: " << s << "\n\nAtual: " << nSalario << "\n\nDiferenca: " << nSalario-s;
     
-}*/

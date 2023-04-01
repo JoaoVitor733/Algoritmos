@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 using namespace std;
 /*
@@ -17,7 +17,7 @@ Código Descrição Preço Unitário
 Escreva um algoritmo que leia o código dos itens pedidos (um sanduiche e uma bebida) e a quantidade 
 de cada um e calcule o valor a ser pago por aquele lanche. 
 */
-/*
+
 int main(){
     int cLanche, cBebida, qtdLanche, qtdBebida;
     float p;
@@ -48,4 +48,4 @@ int main(){
     cout << "\nValor da compra R$" << p;
 
     
-}*/
+}

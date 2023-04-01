@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 using namespace std;
 /*
@@ -7,7 +7,7 @@ Utilize as seguintes fórmulas para cálculo do peso ideal:
 • Masculino = (72,7 x altura) - 58 
 • Feminino = (62,1 x altura) - 44,7 
 */
-/*
+
 int main(){
     float a;  
     char s;
@@ -26,4 +26,3 @@ int main(){
     }
     
 }
-*/

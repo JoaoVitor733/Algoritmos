@@ -23,3 +23,4 @@ int main(){
                 else nSalario = s*1.4;
     cout << "\nSalario antigo: " << s << "\n\nAtual: " << nSalario << "\n\nDiferenca: " << nSalario-s;
     
+}

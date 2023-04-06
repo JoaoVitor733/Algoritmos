@@ -16,3 +16,7 @@ Conteúdos da Lista 2:
 de início e fim de bloco. 
 - Estruturas de controle de fluxo (condicionais): sequência de comandos, comandos condicionais simples e 
 compostos.
+
+Conteúdos da lista 3: 
+Estruturas de controle de fluxo (de repetição): laços de repetição com teste no início, com teste no fim e 
+de repetição com controle de contagem.

@@ -30,5 +30,5 @@ int main(){
                 break;
         }
     }while(operation != '=');
-    cout << result;
+    cout << "\n= " << result;
 }

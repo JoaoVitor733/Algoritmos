@@ -8,6 +8,7 @@ negativo, solicitar que o usuário digite novamente até que o número seja posi
 int main(){
     short int numberOne, numberTwo, numberThree, numberFor;
     do{
+        cout << "\nEnter a interge number!!\n";
         do{ cout << "\nEnter number one: ";
             cin >> numberOne;
         }while(numberOne < 0);
@@ -20,8 +21,8 @@ int main(){
         do{ cout << "\nEnter number for: ";
             cin >> numberFor;
         }while(numberFor < 0);
-        cout << "\n" << numberOne << "\t" << numberTwo << "\t" << numberThree << "\t" << numberFor;
-        cout << "\n" << numberOne*numberOne << "\t" << numberTwo*numberTwo << "\t" << numberThree*numberThree << "\t"<< numberFor*numberFor;
-        cout << "\n" << numberOne*numberOne*numberOne << "\t" << numberTwo*numberTwo*numberTwo  << "\t" << numberThree*numberThree*numberThree << "\t" << numberFor*numberFor*numberFor;
-    }while((numberOne == numberTwo) && (numberTwo == numberThree) && (numberThree == numberFor) && (numberFor != 0));
+        cout << "\n" << numberOne << "\t\t" << numberTwo << "\t\t"  << numberThree << "\t\t"  << numberFor;
+        cout << "\n" << numberOne*numberOne << "\t\t"  << numberTwo*numberTwo << "\t\t"  << numberThree*numberThree << "\t\t" << numberFor*numberFor;
+        cout << "\n" << numberOne*numberOne*numberOne << "\t\t"  << numberTwo*numberTwo*numberTwo  << "\t\t" << numberThree*numberThree*numberThree << "\t\t"  << numberFor*numberFor*numberFor << endl;
+    }while((numberOne+numberFor+numberThree+numberTwo) != 0);
 }

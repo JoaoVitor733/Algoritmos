@@ -20,3 +20,7 @@ compostos.
 Conteúdos da lista 3: 
 Estruturas de controle de fluxo (de repetição): laços de repetição com teste no início, com teste no fim e 
 de repetição com controle de contagem.
+
+Conteúdos da lista 4: 
+Estruturas de Dados Homogêneas unidimensionais (vetores): definição, declaração, armazenamento de 
+dados e acesso aos elementos armazenados. 

@@ -7,7 +7,7 @@ escreva o vetor A modificado. */
 int main(){
     int A[5], aux;
     for (int i = 0; i < 5; i++){
-        cout << "Digite o valor da " << i + 1 << "a. posicao: ";
+        cout << "\nDigite o valor da " << i + 1 << "a. posicao: ";
         cin >> A[i];
     }
     for (int i = 0; i < 2; i++){

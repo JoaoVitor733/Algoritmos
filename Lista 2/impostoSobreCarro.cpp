@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 /*Num determinado Estado, para transferências de veículos o DETRAN cobra uma taxa de 1% para carros 

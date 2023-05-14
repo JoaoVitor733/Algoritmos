@@ -6,7 +6,7 @@ um terceiro vetor C contendo todos os elementos comuns aos dois vetores A e B.*/
 int main() {
     int A[5], B[5], C[5];
     short int cont = 1, qtdComuns = 0;
-    bool flag = true, primeiraVez;
+    bool flag = true, primeiraVez = true;
     for(int i=0; i < 5; i++){
         cout << "\n\nDigite o " << i+1<< "o. valor do vetor A: ";
         cin >> A[i];

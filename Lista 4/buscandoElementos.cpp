@@ -13,7 +13,7 @@ int main(){
         cout << "Digite o valor da " << i+1 << "a. posicao: ";
         cin >> v[i];
     }
-    cout << "Digite 1 para visualizar os elementos pares e 0 para os impares: ";
+    cout << "Digite (1 - elementos nos indices pares e 0 - elementos nos indices impares): ";
     cin >> opcao;
     for(int i=0; i < 5; i++){
         if(opcao){

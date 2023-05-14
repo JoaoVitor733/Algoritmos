@@ -9,14 +9,18 @@ int main(){
     for(int i=0; i < 5; i++){
         cout << "\nDigite o valor da " << i+1 << "a. posicao: ";
         cin >> v[i];
-        if(v[i]%2==0){ 
+    }
+    cout << "\n\nVetor original: \n\n";
+    for(int i=0; i<5;i++){
+        cout <<"|  "<< v[i] << "  | ";
+         if(v[i]%2==0){ 
             par++;
             v[i] = 0;
         }
     }
-    cout << "\n";
+    cout << "\n\nVetor final: \n\n";
     for(int i=0; i<5;i++){
-        cout << v[i] << " "; 
+         cout <<"|  "<< v[i] << "  | "; 
     }
-    cout << "\nExistem " << par << " numeros pares!"; 
+    cout << "\n\nExistem " << par << " numeros pares!"; 
 }

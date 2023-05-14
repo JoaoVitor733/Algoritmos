@@ -6,7 +6,7 @@ e escreva a soma de todos os seus algarismos. Por exemplo, para o número 251 a 
 inválido”. */
 int main(){
     int numero, soma = 0, digito;
-    cout << "\nDigite um valor interio maior que 0 e menor que 99999: ";
+    cout << "\nDigite um valor inteiro maior que 0 e menor que 99999: ";
     cin >> numero;
     if(numero > 0){
         digito = numero/10000;

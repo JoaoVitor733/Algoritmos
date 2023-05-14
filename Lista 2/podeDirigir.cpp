@@ -8,6 +8,6 @@ int main(){
     short int idade;
     cout << "\nDigite sua idade: ";
     cin >> idade;
-    if(idade>=18) cout << "\nPode tirar a carteira!";
-    else cout << "\nFalta " << 18-idade << " ano(s) para poder tirar sua carteira";
+    if(idade>=18) cout << "\nVoce pode tirar a carteira de habilitacao!";
+    else cout << "\nFalta(m) " << 18-idade << " ano(s) para voce poder tirar a sua carteira de habilitacao";
 }

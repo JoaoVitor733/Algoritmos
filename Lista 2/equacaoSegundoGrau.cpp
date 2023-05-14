@@ -10,7 +10,7 @@ segundo grau”;
 • Se ∆ = 0, existe uma raiz real. Escreva a raiz e a mensagem “Raiz única”; 
 • Se ∆ ≥ 0, escreva as duas raízes reais. */
 int main(){
-    short int a,b,c, delta;
+    float a,b,c, delta;
     cout << "Digite os valores de 'a','b', e 'c': ";
     cin >> a >> b >> c;
     delta = (b*b)-4*a*c;

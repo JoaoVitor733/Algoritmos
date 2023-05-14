@@ -9,7 +9,7 @@ não formarem um triângulo, escrever esta mensagem. Considere as seguintes prop
 lados diferentes.*/
 int main(){
     short int x,y,z;
-    cout << "\nDigite os valors de x,y e z, respectivamente: ";
+    cout << "\nDigite os valors de x,y e z: ";
     cin >> x >> y >> z;
     if((x+y > z) && (y+z>x) && (x+z > y)){
         if((x==y)&&(y==z)) cout << "\nO triangulo eh equilatero!!";

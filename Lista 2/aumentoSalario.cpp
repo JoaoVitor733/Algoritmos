@@ -1,4 +1,4 @@
-  #include <iostream>
+ #include <iostream>
 using namespace std;
 /*Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, 
 conforme a tabela abaixo. Faça um algoritmo que leia o salário e o código do cargo de um funcionário e 

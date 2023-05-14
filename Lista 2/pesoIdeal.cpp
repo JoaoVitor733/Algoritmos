@@ -14,5 +14,5 @@ int main(){
     cin >> sexo;
     if(sexo == 'm') cout << "\nSeu peso ideal: " << (72.7*altura)-58;
     else if(sexo == 'f') cout << "\nSeu peso ideal: " << (62.1*altura) - 44.7; 
-    else cout << "letra invalida!!";    
+    else cout << "\nletra invalida!!";    
 }

@@ -18,6 +18,5 @@ int main() {
     if(crescente && decrescente) cout << " em ordem aleatoria!";
     else if(crescente) cout << " em ordem crescente!";
         else if(decrescente) cout << " em ordem decrescente!";
-             else cout << " com elementos iguais!"
-;  
+             else cout << " com elementos iguais!";  
 }

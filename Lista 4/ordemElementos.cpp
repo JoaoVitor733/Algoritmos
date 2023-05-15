@@ -1,6 +1,6 @@
 #include <iostream>
 using std::cin;
-using std::cout;
+using std::cout; 
 /*Elabore um algoritmo que leia um vetor ORIGINAL de 20 posições de inteiro, verifique e informe se os seus 
 elementos estão em ordem crescente, ordem decrescente ou ordem aleatória.*/
 int main() {

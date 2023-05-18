@@ -42,7 +42,7 @@ int main() {
     case 3:
         cont = 0;
         aux = 1;
-        while(cont < 9){ 
+        while(cont < 10){ 
             divisor = 1;
             divisores = 0;
             while(divisores < 3 && divisor <= aux){
@@ -67,7 +67,7 @@ int main() {
     case 5:
         cont = 0;
         aux = 1;
-        while(cont < 9){
+        while(cont < 10){
             if((aux % 3 == 0) && (aux % 5 == 0)){
                 sequencia[cont] = aux;
                 cout << " " << sequencia[cont] << " ";

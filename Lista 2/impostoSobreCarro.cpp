@@ -11,6 +11,6 @@ int main(){
     cin >> ano;
     cout << "\nDigite o preco do seu carro:";
     cin >> preco;
-    if(ano < 1990) cout << "\nImposto a ser pago: " << preco*0.001;     
+    if(ano < 1990) cout << "\nImposto a ser pago: " << preco*0.01;     
     else  cout << "\nImposto a ser pago: " << preco*0.015; 
 }    

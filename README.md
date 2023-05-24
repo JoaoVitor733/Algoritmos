@@ -26,7 +26,7 @@ Conteúdos da lista 4:
 dados e acesso aos elementos armazenados. 
 
 Conteúdos das litas 5: 
-Estruturas de Dados Homogêneas multidimensionais (matrizes): definição, declaração, armazenamento de 
+- Estruturas de Dados Homogêneas multidimensionais (matrizes): definição, declaração, armazenamento de 
 dados e acesso aos elementos armazenados.
-Cadeia de caracteres (strings): definição, declaração, armazenamento de dados e acesso aos elementos 
+- Cadeia de caracteres (strings): definição, declaração, armazenamento de dados e acesso aos elementos 
 armazenados.

@@ -1,5 +1,5 @@
 #include <iostream>
-using std::cin;
+using std::cin; 
 using std::cout;
 /*Escreva um algoritmo que leia uma matriz M(10,10) e a escreva. Troque, a seguir:
 os elementos da diagonal principal pelos elementos da diagonal secundária

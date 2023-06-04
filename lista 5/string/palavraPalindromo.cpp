@@ -6,12 +6,17 @@ using std::cout;
 Lembrando que um palíndromo é uma palavra que tenha a propriedade de poder ser lida tanto da direita
 para a esquerda quanto da esquerda para a direita. Exemplos: ovo, arara, anotaram a data da maratona.*/
 int main(){
-    string palavra;
+    string palavra, palavraAux;
     cout << "\nDigite uma palavra: ";
     getline(cin, palavra);
     bool palindroma = true;
-    for(int i = 0; i < (palavra.size()/2); i++){
-        if(palavra[i] != palavra[(palavra.size()-1)-i]) palindroma = false;
+    for(int i = 0; i < palavra.size();i++){
+        if((int)palavra[i] >= 97) palavra[i] = (char)(palavra[i]-32);
+        if((palavra[i] >= 65 && palavra[i] <= 90)) palavraAux+=palavra[i];
+    }
+
+    for(int i = 0; i < (palavraAux.size()/2); i++){
+        if(palavraAux[i] != palavraAux[(palavraAux.size()-1)-i]) palindroma = false;
     }
     if(palindroma) cout << "\nA palavra e um palindromo!";
     else cout << "\nA palavra nao eh um palindromo!";

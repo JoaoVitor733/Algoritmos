@@ -19,7 +19,7 @@ int main(){
     cin >> posicoes;
     cout << "\nFrase codificada: ";
     for(int i = 0; i < frase.size(); i++){
-        if((((int)frase[i] >= 97) && ((int)frase[i] <= 120)) || (((int)frase[i] >= 65) && ((int)frase[i] <= 90))){
+        if((((int)frase[i] >= 97) && ((int)frase[i] <= 122)) || (((int)frase[i] >= 65) && ((int)frase[i] <= 90))){
             if((int)frase[i] >= 97) novaPosi = (((((int)frase[i])+posicoes)-97)+65); //letras maiusculas
             else novaPosi = (((int)frase[i])+posicoes);//codificando letras maiusculas
             if(novaPosi > 90) novaPosi = (novaPosi-90)+65; //permitindo apenas letras

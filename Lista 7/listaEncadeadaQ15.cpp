@@ -1,7 +1,7 @@
 #include <iostream>
 using std::cin;
 using std::cout;
-/*Considerando uma lista encadeada de valores inteiros definida pela struct abaixo: 
+/*Considerando uma lista encadeada de valores inteiros definida pela struct abaixo:  
 struct noh{ 
 int valor; 
 lista *proximo; 

@@ -32,10 +32,10 @@ dados e acesso aos elementos armazenados.
 armazenados.
 
 Conteúdos da lista 6: 
-Estruturas de Dados Heterogêneas (registros): definição, declaração, armazenamento de dados e acesso 
+- Estruturas de Dados Heterogêneas (registros): definição, declaração, armazenamento de dados e acesso 
 aos elementos armazenados. Definição e utilização de vetores de registros.
 
 Conteúdos da lista 7: 
-Funções, Variáveis locais e globais, passagem de parâmetros por valor: conceito de 
+- Funções, Variáveis locais e globais, passagem de parâmetros por valor: conceito de 
 modularização, tipos de retorno, passagens de parâmetro por valor, escopo das variáveis, chamadas a 
 funções e ponteiros. 

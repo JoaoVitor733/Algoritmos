@@ -30,7 +30,7 @@ struct noh{
 }; 
 
 int main(){
-    short int op, valor, cont1, cont2;
+    short int op, valor;
     bool naoPrimeiraVez = false, naoAchei;
     noh *p1, *p2, *p3, *primeiroNoh = NULL, *nohAnterior, *nohAnteriorAux;
 
@@ -66,23 +66,22 @@ int main(){
                 if(p2 != NULL){
                     naoPrimeiraVez = false;
                     naoAchei = true;
-                    cont1 = 0;
-                    cont2 = 0;
-                    do{ cont1++;
+                    do{ 
                         if(valor == p2->valor){
-                            cont2++;
                             naoAchei = false;
                             if(naoPrimeiraVez){
                                 nohAnteriorAux->proximo = p2->proximo;
                             }else{
                                 primeiroNoh = primeiroNoh->proximo;
                                 nohAnteriorAux = primeiroNoh;
+                                naoPrimeiraVez = false;
                             }               
-                        }else nohAnteriorAux =  p2;
+                        }else{
+                            nohAnteriorAux =  p2;
+                            naoPrimeiraVez = true;
+                        }
                         p2 = p2->proximo;               
-                        naoPrimeiraVez = true;
                     }while((p2 != NULL)); 
-                    if(cont1 == cont2) primeiroNoh = NULL;
                     if(naoAchei) cout << "\nElemento nao encontrado!\n";
                     else cout << "\nRemocao realizada com sucesso!\n";
                 }else cout << "\nLista vazia!\n";     
